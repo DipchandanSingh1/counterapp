@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(99, 100, 101);
+}
+.title{
+    padding-top:30px;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+    width: 1000px;
+    border: 1px solid red;
+    margin: 10px auto;
+    text-align: center;
+}
+input{
+    font-size: 20px;
+    color: black;
+    height: 50px;
+    display: block;
+}
